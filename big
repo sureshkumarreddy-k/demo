@@ -1,0 +1,14 @@
+import java.util.*;
+public class BigNum{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+int a=sc.nexrInt();
+int b=sc.nextInt();
+if(a>b){
+System.out.println(a+"is big number");
+}
+else{
+System.out.println(b+"is big number");
+}
+}
+}
